@@ -1,0 +1,24 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Venkata7202/VirtusaDlvery-Frontend.git
+git push -u origin main
+        or
+git push -f origin main
+cloning existing git repository
+git clone https://github.com/Mahesh7202/RideSharing.git
+
+
+when error occurs like "error: failed to push some refs to 'https://github.com/Venkata7202/HibernateAnnotationCriteriaOracle.git' "
+
+follow the following commands
+git reset 
+git remote -v
+git pull --rebase
+git init
+git add -A
+git commit -m "Add your commit"
+git branch -M main
+git push origin main --force
+
